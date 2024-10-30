@@ -1,0 +1,556 @@
+# Copyright (C) 2024 freakedout
+# This file is distributed under the GPL v3.
+msgid ""
+msgstr ""
+"Project-Id-Version: chimpXpress 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-21T11:56:09+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+
+#. Plugin Name of the plugin
+#: chimpxpress.php
+msgid "chimpXpress"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: chimpxpress.php
+msgid "https://chimpxpress.com"
+msgstr ""
+
+#. Description of the plugin
+#: chimpxpress.php
+msgid "WordPress Mailchimp Integration - Create Mailchimp campaign drafts from within WordPress and include blog posts or import recent campaigns into WordPress to create blog posts or landing pages. Requires PHP7.4. If you're having trouble with the plugin visit our forums https://chimpxpress.com/support Thank you!"
+msgstr ""
+
+#. Author of the plugin
+#: chimpxpress.php
+msgid "freakedout"
+msgstr ""
+
+#. Author URI of the plugin
+#: chimpxpress.php
+msgid "https://www.freakedout.de"
+msgstr ""
+
+#: archive.php:44
+msgid "Please select a landing page from the list!"
+msgstr ""
+
+#: archive.php:59
+msgid "Please select one or more landing pages from the list!"
+msgstr ""
+
+#: archive.php:61
+msgid "Are you sure you want to delete the selected landing pages? There is no undo!"
+msgstr ""
+
+#: archive.php:86
+#: compose.php:367
+#: editLP.php:67
+#: import.php:38
+#: main.php:39
+msgid "Please connect your Mailchimp account!"
+msgstr ""
+
+#: archive.php:109
+#: compose.php:382
+#: editLP.php:90
+#: import.php:61
+#: main.php:62
+msgid "Direct file access not possible. Please enter valid ftp credentials in the configuration!"
+msgstr ""
+
+#: archive.php:117
+#: chimpxpress.php:267
+#: editLP.php:105
+#: main.php:95
+msgid "Landing Page Archive"
+msgstr ""
+
+#: archive.php:133
+msgid "Campaign Subject"
+msgstr ""
+
+#: archive.php:135
+msgid "created / modified"
+msgstr ""
+
+#: archive.php:165
+msgid "Edit"
+msgstr ""
+
+#: archive.php:168
+msgid "Delete"
+msgstr ""
+
+#: archive.php:175
+msgid "No landing pages found!"
+msgstr ""
+
+#: archive.php:180
+#: chimpxpress.php:239
+#: chimpxpress.php:826
+msgid "Dashboard"
+msgstr ""
+
+#: chimpxpress.php:133
+msgid "API Key saved"
+msgstr ""
+
+#: chimpxpress.php:154
+msgid "API Key expired"
+msgstr ""
+
+#: chimpxpress.php:249
+#: chimpxpress.php:250
+#: import.php:69
+#: main.php:77
+msgid "Import"
+msgstr ""
+
+#: chimpxpress.php:258
+#: chimpxpress.php:259
+#: compose.php:390
+#: main.php:86
+msgid "Compose"
+msgstr ""
+
+#: chimpxpress.php:268
+msgid "Landing Pages"
+msgstr ""
+
+#: chimpxpress.php:277
+#: chimpxpress.php:278
+#: editLP.php:99
+msgid "Edit Landing Page"
+msgstr ""
+
+#: chimpxpress.php:286
+#: chimpxpress.php:829
+msgid "Settings"
+msgstr ""
+
+#: chimpxpress.php:387
+#: chimpxpress.php:431
+#: chimpxpress.php:530
+msgid "Campaign could not be retrieved. Please try again."
+msgstr ""
+
+#: chimpxpress.php:511
+msgid "Page title must not be empty or consist exclusively of special characters!"
+msgstr ""
+
+#: chimpxpress.php:519
+msgid "A landing page with the supplied name already exists!"
+msgstr ""
+
+#: chimpxpress.php:519
+msgid "Click here to overwrite the existing landing page"
+msgstr ""
+
+#: chimpxpress.php:619
+#: chimpxpress.php:1289
+msgid "open campaign in popup window"
+msgstr ""
+
+#: chimpxpress.php:695
+#: chimpxpress.php:701
+#: chimpxpress.php:707
+msgid "Invalid ftp credentials!"
+msgstr ""
+
+#: chimpxpress.php:736
+msgid "Invalid FTP host!"
+msgstr ""
+
+#: chimpxpress.php:742
+msgid "Invalid username / password!"
+msgstr ""
+
+#: chimpxpress.php:752
+msgid "Invalid FTP path!"
+msgstr ""
+
+#: chimpxpress.php:756
+msgid "FTP test successful!"
+msgstr ""
+
+#: chimpxpress.php:795
+msgid "Retrieving templates and lists ..."
+msgstr ""
+
+#: chimpxpress.php:877
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: chimpxpress.php:903
+#: chimpxpress.php:1046
+#: chimpxpress.php:1071
+#: chimpxpress.php:1095
+#: chimpxpress.php:1113
+#: chimpxpress.php:1131
+#: chimpxpress.php:1164
+#: chimpxpress.php:1217
+msgid "Click for Help!"
+msgstr ""
+
+#: chimpxpress.php:905
+#: chimpxpress.php:1048
+#: chimpxpress.php:1073
+#: chimpxpress.php:1097
+#: chimpxpress.php:1115
+#: chimpxpress.php:1133
+#: chimpxpress.php:1166
+#: chimpxpress.php:1219
+msgid "[?]"
+msgstr ""
+
+#: chimpxpress.php:909
+msgid "You need a Mailchimp account. If you do not have one, <a href=\"%s\" target=\"_blank\">sign up for free</a>"
+msgstr ""
+
+#: chimpxpress.php:912
+msgid "<a href=\"%s\" target=\"_blank\">Grab your API Key</a>"
+msgstr ""
+
+#: chimpxpress.php:1031
+msgid "Connected as"
+msgstr ""
+
+#: chimpxpress.php:1040
+msgid "Current Mailchimp Status"
+msgstr ""
+
+#: chimpxpress.php:1044
+msgid "Not connected"
+msgstr ""
+
+#: chimpxpress.php:1051
+msgid "The current status of your server's connection to Mailchimp"
+msgstr ""
+
+#: chimpxpress.php:1063
+msgid "Grant Access for"
+msgstr ""
+
+#: chimpxpress.php:1067
+msgid "Administrators"
+msgstr ""
+
+#: chimpxpress.php:1068
+msgid "Editors"
+msgstr ""
+
+#: chimpxpress.php:1069
+msgid "Authors"
+msgstr ""
+
+#: chimpxpress.php:1076
+msgid "Select the role, which is supposed to have access to the plugin. All roles above the selected will have access as well."
+msgstr ""
+
+#: chimpxpress.php:1088
+msgid "FTP Host"
+msgstr ""
+
+#: chimpxpress.php:1100
+#: chimpxpress.php:1118
+#: chimpxpress.php:1136
+msgid "If chimpXpress can't write files directly to the server it will prompt you to enter your ftp credentials."
+msgstr ""
+
+#: chimpxpress.php:1106
+msgid "FTP Username"
+msgstr ""
+
+#: chimpxpress.php:1124
+msgid "FTP Password"
+msgstr ""
+
+#: chimpxpress.php:1142
+msgid "FTP Path"
+msgstr ""
+
+#: chimpxpress.php:1150
+msgid "Find FTP Path"
+msgstr ""
+
+#: chimpxpress.php:1169
+msgid "Enter the path from the ftp root directory to your WordPress installation. To find it you can login with your ftp client and navigate to the WordPress directory. This would be your ftp path."
+msgstr ""
+
+#: chimpxpress.php:1175
+msgid "Test FTP Connection"
+msgstr ""
+
+#: chimpxpress.php:1179
+msgid "run test"
+msgstr ""
+
+#: chimpxpress.php:1210
+msgid "Google Analytics Profile ID"
+msgstr ""
+
+#: chimpxpress.php:1222
+msgid "Enter your Google Analytics Profile ID if you want to be able to track your landing pages in Analytics. The ID should look like: UA-1234567-8"
+msgstr ""
+
+#: chimpxpress.php:1230
+msgid "Update Settings &raquo;"
+msgstr ""
+
+#: chimpxpress.php:1262
+#: chimpxpress.php:1271
+msgid "Import from Mailchimp campaign"
+msgstr ""
+
+#: chimpxpress.php:1285
+msgid "Choose a campaign to copy content into your post"
+msgstr ""
+
+#: chimpxpress.php:1295
+msgid "load more campaigns"
+msgstr ""
+
+#: chimpxpress.php:1295
+msgid "more"
+msgstr ""
+
+#: class-MCAPI.php:1421
+msgid "error code"
+msgstr ""
+
+#: compose.php:68
+#: compose.php:758
+msgid "Campaign name and subject line must be supplied!"
+msgstr ""
+
+#: compose.php:70
+msgid "Are you sure you want to go back to step one? All entered content will be lost!"
+msgstr ""
+
+#: compose.php:89
+msgid "Campaign name and subject can not consist exclusively of special characters!"
+msgstr ""
+
+#: compose.php:217
+#: compose.php:226
+msgid "Are you sure you want to cancel? All entered content will be lost!"
+msgstr ""
+
+#: compose.php:299
+#: compose.php:405
+msgid "go to step"
+msgstr ""
+
+#: compose.php:300
+msgid "submit"
+msgstr ""
+
+#: compose.php:401
+msgid "previous step"
+msgstr ""
+
+#: compose.php:406
+msgid "settings"
+msgstr ""
+
+#: compose.php:411
+msgid "next step"
+msgstr ""
+
+#: compose.php:487
+msgid "Templates and lists could not be retrieved! Please make sure you have set up templates and lists in Mailchimp. <span id=\"reloadCache\"><a href=\"javascript:void(0)\">Click here to re-try.</a>"
+msgstr ""
+
+#: compose.php:503
+msgid "select an email template"
+msgstr ""
+
+#: compose.php:556
+msgid "preview"
+msgstr ""
+
+#: compose.php:559
+msgid "this template has"
+msgstr ""
+
+#: compose.php:560
+msgid "editable areas"
+msgstr ""
+
+#: compose.php:568
+msgid "select a subscriber list"
+msgstr ""
+
+#: compose.php:582
+msgid "this list has"
+msgstr ""
+
+#: compose.php:583
+msgid "active subscribers"
+msgstr ""
+
+#: compose.php:589
+msgid "campaign name"
+msgstr ""
+
+#: compose.php:594
+msgid "subject line"
+msgstr ""
+
+#: compose.php:600
+#: compose.php:748
+#: import.php:229
+msgid "next &raquo;"
+msgstr ""
+
+#: compose.php:602
+#: compose.php:750
+#: import.php:234
+msgid "cancel"
+msgstr ""
+
+#: compose.php:623
+msgid "Note"
+msgstr ""
+
+#: compose.php:624
+msgid "Templates and lists are cached. <a href=\"javascript:void(0);\" title=\"Reload cache\">Reload cache</a> if an expected entry does not appear in the list."
+msgstr ""
+
+#: compose.php:648
+msgid "content section"
+msgstr ""
+
+#: compose.php:709
+msgid "Insert content from blog post"
+msgstr ""
+
+#: compose.php:711
+msgid "-- select post --"
+msgstr ""
+
+#: compose.php:796
+#: compose.php:823
+msgid "Campaign could not be created!"
+msgstr ""
+
+#: compose.php:890
+msgid "High fives! Your campaign was created in Mailchimp and is ready to send."
+msgstr ""
+
+#: compose.php:895
+msgid "What do I do now?"
+msgstr ""
+
+#: compose.php:900
+msgid "login to Mailchimp"
+msgstr ""
+
+#: compose.php:902
+msgid "open the campaign \"%s\" and click \"send now\""
+msgstr ""
+
+#: compose.php:907
+msgid "open Mailchimp"
+msgstr ""
+
+#: compose.php:909
+msgid "cancel (and remove draft from Mailchimp)"
+msgstr ""
+
+#: compose.php:912
+msgid "Preview"
+msgstr ""
+
+#: editLP.php:104
+msgid "No landing page selected!"
+msgstr ""
+
+#: editLP.php:127
+msgid "Save"
+msgstr ""
+
+#: editLP.php:128
+msgid "Cancel"
+msgstr ""
+
+#: editLP.php:131
+msgid "Are you sure you want to cancel this operation?"
+msgstr ""
+
+#: editLP.php:156
+msgid "Landing page not found! Please make sure the directory \"archive\" exists in your wordpress root and is writable."
+msgstr ""
+
+#: footer.php:23
+msgid "developed by"
+msgstr ""
+
+#: import.php:89
+msgid "Cannot continue as campaign does not seem to have a subject yet!"
+msgstr ""
+
+#: import.php:182
+msgid "select campaign content to import"
+msgstr ""
+
+#: import.php:198
+msgid "create a new ..."
+msgstr ""
+
+#: import.php:200
+msgid "blog post"
+msgstr ""
+
+#: import.php:203
+msgid "landing page"
+msgstr ""
+
+#: import.php:209
+msgid "import as ..."
+msgstr ""
+
+#: import.php:211
+msgid "text"
+msgstr ""
+
+#: import.php:214
+msgid "HTML"
+msgstr ""
+
+#: import.php:218
+msgid "page title"
+msgstr ""
+
+#: loggedInStatus.php:25
+msgid "connected as"
+msgstr ""
+
+#: loggedInStatus.php:29
+msgid "connect your Mailchimp account"
+msgstr ""
+
+#: main.php:71
+msgid "Pull content from Mailchimp email campaigns into WordPress or compose an email campaign in WordPress, then pass it to Mailchimp."
+msgstr ""
+
+#: main.php:79
+msgid "Import content from your Mailchimp Account"
+msgstr ""
+
+#: main.php:81
+#: main.php:90
+msgid "go"
+msgstr ""
+
+#: main.php:88
+msgid "Compose an email, then pass it to Mailchimp for delivery."
+msgstr ""
